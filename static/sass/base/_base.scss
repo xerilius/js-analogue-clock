@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 60%;
+}
+body {
+    background-image: url(../img/room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* Parallax Scrolling Effect */
+    background-attachment: fixed;
+
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    height: 35vh;
+    align-items: center;
+}

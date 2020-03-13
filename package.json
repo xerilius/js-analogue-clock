@@ -1,0 +1,14 @@
+{
+  "name": "js-analogue-clock",
+  "version": "1.0.0",
+  "description": "An analogue clock built with JavaScript and HTML/CSS",
+  "main": "clock.js",
+  "scripts": {
+    "compile:sass" : "node-sass static/sass/main.scss static/css/style.css -w"
+  },
+  "author": "Grace Chung",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
